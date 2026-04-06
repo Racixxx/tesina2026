@@ -1,0 +1,56 @@
+/* SFONDO GENERALE */
+body {
+  background-color: #0f172a;
+  color: white;
+
+}
+
+/* SEZIONI */
+.section {
+  margin-top: 50px;
+}
+
+/* CARD */
+.card {
+  background-color: #1e293b;
+  border: none;
+  border-radius: 15px;
+  transition: 0.3s;
+  color: white;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.6);
+}
+
+/* TITOLI SEZIONE */
+.section-title {
+  border-left: 5px solid #38bdf8;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+/* DIVISORE */
+.divider {
+  height: 2px;
+  background: linear-gradient(to right, transparent, #38bdf8, transparent);
+  margin: 40px 0;
+}
+
+/* COMMENTI */
+.bubble {
+  background-color: #1e293b;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+/* AVATAR */
+img.avatar {
+  width: 100px;
+  border-radius: 100px;
+}
+
+
+
